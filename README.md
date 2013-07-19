@@ -2,8 +2,10 @@ Proletariat.js
 ==============
 
 
-**Proletariat.js** is a microlibrary simplifies and hides routines with WebWorkers.
+**Proletariat.js** is a microlibrary simplifies and hides routines with WebWorkers.  
 It set few rules and constraints to workers.
+
+![Proletariat](https://raw.github.com/yetithefoot/proletariat.js/master/logo.png "Proletariat.js")
 
 ###Messages TO Workers
 
@@ -48,7 +50,7 @@ Crowd is a set of workers with similar tasks, it invokes *allFinished* callback,
 
 ###Usage
 
-Worker code example:
+For example, your worker code looks like this:
 
 ```javascript
 // hardjob.js
