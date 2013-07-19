@@ -1,7 +1,7 @@
 proletariat.js
 ==============
 
-/*
+
 Proletariat.js is a microlibrary simplifies and hides routines with WebWorkers.
 It set few rules and constraints to workers:
 
@@ -29,4 +29,3 @@ but you can set it from your code like this:
 worker.delegate.errored =  function(evt) {console.log("Error: "+evt.data.message);};
 worker.delegate.finished = finishedCallback;
 
- */
