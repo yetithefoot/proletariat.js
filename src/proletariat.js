@@ -88,7 +88,7 @@ Proletariat.createWorker = function(url, delegate){
 	worker.delegate = delegate || {};
 
 	var onMessageHandler = function(event){
-		var messageType = event.data.result;
+		var messageType = event.data.type;
 		worker.type = messageType;
 		if(messageType == 'inited' && worker.delegate.inited){
 			worker.delegate.inited(event);
