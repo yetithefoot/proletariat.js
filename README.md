@@ -1,6 +1,6 @@
 Proletariat.js
 ==============
-
+<a href="https://codeclimate.com/github/yetithefoot/proletariat.js"><img src="https://codeclimate.com/github/yetithefoot/proletariat.js.png" /></a>
 
 **Proletariat.js** is a microlibrary simplifies and hides routines with WebWorkers.  
 It set few rules and constraints to workers.
